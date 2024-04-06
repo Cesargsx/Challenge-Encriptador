@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <img class="header-logo" src="Imagines/Logo.png" alt="">
+        </div>  
+    </header>
+
+    <main>
+        <div class="main">
+            <div class="left">
+                <textarea id="ingresoTexto" class="ingreso-texto" placeholder="Ingrese texto aquí"></textarea>
+                <div class="left-footer">
+                    <img src="Imagines/exclamcion.png" alt="">
+                    <span class="left-info">Solo letras minúsculas y sin acento</span>
+                    <div class="left-botones">
+                        <button id="botonEncriptar" class="boton-encriptar">Encriptar</button>
+                        <button id="botonDesencriptar" class="boton-desencriptar">Desencriptar</button>
+                    </div>
+                </div>  
+            </div>
+            <div id="right" class="right ajustar">
+                <img id="muhneco" class="muneco" src="Imagines/Muñeco.png" alt="">
+                <textarea id="mensajeFinal" class="mensaje-final ajustar" placeholder="Ningún mensaje fue encontrado"></textarea>
+                <p id="rightInfo" class="right-info">Ingresa el texto que deseas encriptar</p>
+                <button id="botonCopiar" class="boton-copiar oculto">Copiar</button>
+            </div>
+        </div> 
+    </main>
+    <!-- <footer>
+    </footer> -->
+    <script src="script.js"></script>
+    
+</body>
+</html>
